@@ -1,5 +1,5 @@
 <template>
-  <div id="app" style="background-color: lavenderblush">
+  <div id="app" style="background-color: #f0f0f0">
     <header-nav></header-nav>
     <div class="siderbar">
       <el-row class="tac">
@@ -16,10 +16,10 @@
               <span slot="title"><router-link tag="span" to="/Home">推荐</router-link> </span>
             </el-menu-item>
             <el-menu-item index="2">
-              <span slot="title">最新文章</span>
+              <span slot="title"><router-link tag="span" to="/news">最新文章</router-link></span>
             </el-menu-item>
             <el-menu-item index="3">
-              <span slot="title">关注</span>
+              <span slot="title"><router-link tag="span" to="/focus">关注</router-link></span>
             </el-menu-item>
             <el-menu-item index="4">
               <span slot="title">资讯</span>
@@ -81,14 +81,14 @@
           <router-view></router-view>
         </el-col>
         <el-col :span="4">
-          <div style="width: 100%;height: 120px;background-color: burlywood">
-            这里是大写的广告模块
+          <div style="width: 100%;height: 120px;background-color: #d3dce6">
+            <adv></adv>
           </div>
-          <div style="width: 100%;height: 240px;background-color: aquamarine">
-            这里是轮播的广告模块
+          <div style="width: 100%;height: 190px;">
+            <car></car>
           </div>
           <el-menu
-            default-active="2"
+            default-active="1"
             class="el-menu-vertical-demo"
             @open="handleOpen"
             @close="handleClose">
@@ -108,35 +108,35 @@
 
               <span slot="title">AI竞赛群，里面的人超厉害，说话又好听。。</span>
             </el-menu-item>
-            <el-menu-item index="1">
+            <el-menu-item index="5">
 
               <span slot="title">腾讯竟然是这样存储你的数据的！！！</span>
             </el-menu-item>
-            <el-menu-item index="2">
+            <el-menu-item index="6">
 
               <span>住个酒店，“我”的隐私竟然就这样被扒干净了！</span>
             </el-menu-item>
-            <el-menu-item index="1">
+            <el-menu-item index="7">
 
               <span>%80操作者都不知道的以太坊操作</span>
             </el-menu-item>
-            <el-menu-item index="2">
+            <el-menu-item index="8">
 
               <span slot="title">人工智能+科技无障碍=互联网创新？</span>
             </el-menu-item>
-            <el-menu-item index="3">
+            <el-menu-item index="9">
 
               <span slot="title">AI NEXTcon硅谷AI技术峰会(北京分会)</span>
             </el-menu-item>
-            <el-menu-item index="4">
+            <el-menu-item index="10">
 
               <span slot="title">AI竞赛群，里面的人超厉害，说话又好听。。</span>
             </el-menu-item>
-            <el-menu-item index="1">
+            <el-menu-item index="11">
 
               <span slot="title">腾讯竟然是这样存储你的数据的！！！</span>
             </el-menu-item>
-            <el-menu-item index="2">
+            <el-menu-item index="12">
 
               <span>住个酒店，“我”的隐私竟然就这样被扒干净了！</span>
             </el-menu-item>

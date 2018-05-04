@@ -1,13 +1,12 @@
 <template>
-  <div>
-    <advtop></advtop>
-    <div>welcome SQL</div>
-  </div>
+    <div>
+      这里是广告
+    </div>
 </template>
 
 <script>
     export default {
-        name: "SQL"
+        name: "advtisement"
     }
 </script>
 
