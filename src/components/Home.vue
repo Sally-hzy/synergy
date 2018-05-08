@@ -1,35 +1,8 @@
 <template>
   <div>
     <advtop></advtop>
-    <div class="hello" style="margin-left: 20px;margin-right: 20px;text-align: left;">
-      <el-card class="box-card" shadow="hover" >
-        <div  class="text item" style="text-align: right">
-          <el-popover
-            placement="top"
-            width="60"
-            v-model="visible2">
-            <div style="text-align: right; margin: 0">
-              <el-button size="mini" type="text" @click="visible2 = false">帮上头条</el-button>
-              <el-button type="danger" size="mini" @click="visible2 = false">举报</el-button>
-            </div>
-            <span slot="reference"><i class="el-icon-arrow-down"></i></span>
-          </el-popover>
-        </div>
-        <div></div>
-        <div style="padding: 14px;">
-          <div class="bottom clearfix">
-            <time class="time" v-html="currentDate"></time>
-            <div style="text-align: right">
-              <el-badge :value="12" class="itemm">
-                <el-button size="small">评论</el-button>
-              </el-badge>
-              <el-badge :value="3" class="itemm">
-                <el-button size="small">回复</el-button>
-              </el-badge>
-            </div>
-          </div>
-        </div>
-      </el-card>
+    <div class="blog">
+      <blog></blog>
     </div>
   </div>
 </template>
@@ -43,7 +16,7 @@ export default {
       visible2: false,
       currentDate: new Date()
     };
-  }
+  },
 }
 </script>
 
@@ -78,4 +51,8 @@ a {
   margin-top: 10px;
   margin-right: 40px;
 }
+
+  .blog{
+    margin:0px 20px;
+  }
 </style>

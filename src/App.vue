@@ -3,7 +3,7 @@
     <header-nav></header-nav>
     <div class="siderbar">
       <el-row class="tac">
-        <el-col :span="2" :offset="5">
+        <el-col :span="2" :offset="4">
           <el-menu
             default-active="2"
             class="el-menu-vertical-demo"
@@ -77,10 +77,10 @@
             </el-menu-item>
           </el-menu>
         </el-col>
-        <el-col :span="8">
+        <el-col :span="10">
           <router-view></router-view>
         </el-col>
-        <el-col :span="4">
+        <el-col :span="5">
           <div style="width: 100%;height: 120px;background-color: #d3dce6">
             <adv></adv>
           </div>

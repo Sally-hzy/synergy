@@ -3,8 +3,9 @@
     <div class="block">
       <br/>
       <el-carousel height="150px">
-        <el-carousel-item v-for="item in 4" :key="item">
-          <h3>{{ item }}</h3>
+        <el-carousel-item v-for="item in list" :key="item">
+          <h3>{{ item.name }}</h3>
+          <img :src="item.image" >  <!--传值图片不显示？？-->
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -14,7 +15,33 @@
 
 <script>
     export default {
-        name: "carousel"
+      name: "carousel",
+      data(){
+         return {
+            list:[
+              {
+                name: '图1',
+                desc: 'adv',
+                image: '../../static/imgs/1.jpg'
+              },
+              {
+                name: '图2',
+                desc: 'adv',
+                image: '../../static/imgs/2.jpg'
+              },
+              {
+                name: '图3',
+                desc: 'adv',
+                image: '../../static/imgs/3.jpg'
+              },
+              {
+                name: '图4',
+                desc: 'adv',
+                image: '../../static/imgs/4.jpg'
+              }
+            ]
+         }
+      }
     }
 </script>
 

@@ -12,6 +12,7 @@ import carousel from './components/carousel'
 import advtisement from './components/advtisement'
 import advtisementtop from './components/advtisementtop'
 
+import blog from './components/blog'
 Vue.use(Element);
 Vue.config.productionTip = false
 
@@ -19,7 +20,7 @@ Vue.component('header-nav',headernav);
 Vue.component('car',carousel);
 Vue.component('adv',advtisement);
 Vue.component('advtop',advtisementtop);
-
+Vue.component('blog',blog);
 
 /* eslint-disable no-new */
 new Vue({

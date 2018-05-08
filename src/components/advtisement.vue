@@ -1,6 +1,8 @@
 <template>
     <div>
-      这里是广告
+      <div class="advtop">
+
+      </div>
     </div>
 </template>
 
@@ -11,5 +13,9 @@
 </script>
 
 <style scoped>
-
+  .advtop{
+    background-color: lavenderblush;
+    width: 100%;
+    height: 120px;
+  }
 </style>
