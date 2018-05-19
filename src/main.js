@@ -18,10 +18,11 @@ import Footer from './components/Footer'
 
 //页面引入
 import BlogEdit from './pages/views/BlogEdit'
+import Resource from './pages/views/Resource'
 
 Vue.use(vuex);
 //页面注册
-
+Vue.component('v-resource',Resource);
 Vue.component('v-blogedit',BlogEdit);
 //组件注册
 Vue.component('v-nav',Nav);

@@ -1,0 +1,102 @@
+export default {
+  state:{
+    ResouerceState:true,
+    LabelList:[
+      {
+        label:'CET4'
+      },{
+        label:'CET6'
+      },{
+        label:'课后习题解析'
+      },{
+        label:'法语'
+      },{
+        label:'英语'
+      },{
+        label:'快速学习'
+      },{
+        label:'C语言'
+      }
+    ],
+    DownloadList:[
+      {
+        title:'法语教程',
+        img: 'xxx'
+      },{
+        title:'法语教程',
+        img: 'xxx'
+      },{
+        title:'法语教程',
+        img: 'xxx'
+      },{
+        title:'法语教程',
+        img: 'xxx'
+      },{
+        title:'法语教程',
+        img: 'xxx'
+      },{
+        title:'法语教程',
+        img: 'xxx'
+      }
+    ],
+    ResourceList:[
+      {
+        img:'aa',
+        title:'某资源1',
+        description:'描述',
+        humennum:'当前人数',
+        price:'免费'
+      },{
+        img:'aa',
+        title:'某资源2',
+        description:'描述',
+        humennum:'当前人数',
+        price:'免费'
+      },{
+        img:'aa',
+        title:'某资源3',
+        description:'描述',
+        humennum:'当前人数',
+        price:'免费'
+      },{
+        img:'aa',
+        title:'某资源4',
+        description:'描述',
+        humennum:'当前人数',
+        price:'免费'
+      },{
+        img:'aa',
+        title:'某资源5',
+        description:'描述',
+        humennum:'当前人数',
+        price:'免费'
+      },{
+        img:'aa',
+        title:'某资源6',
+        description:'描述',
+        humennum:'当前人数',
+        price:'免费'
+      },{
+        img:'aa',
+        title:'某资源7',
+        description:'描述',
+        humennum:'当前人数',
+        price:'免费'
+      },{
+        img:'aa',
+        title:'某资源8',
+        description:'描述',
+        humennum:'当前人数',
+        price:'免费'
+      }
+    ]
+  },
+  mutations:{
+    EnterResource(state){
+      state.ResouerceState = false;
+    },
+    ReturnResource(state){
+      state.ResouerceStatee = true;
+    }
+  }
+}

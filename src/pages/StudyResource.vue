@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="row">
+    <div class="row main" v-show="$store.state.Resource.ResouerceState">
       <!--最新资源-->
       <div class="col-md-8">
         <div class="panel panel-default">
@@ -10,7 +10,7 @@
               <p>这里有你最想要的最新最全的资源</p>
             </div>
             <div class="row">
-              <div class="col-md-6" v-for="item in ResourceList">
+              <div class="col-md-6" v-for="item in $store.state.Resource.ResourceList">
                 <div class="panel panel-default">
                   <div class="panel-body resource">
                     <div class="row">
@@ -19,7 +19,7 @@
                       </div>
                       <div class="col-md-7">
                         <div class="title">
-                          <h4>{{item.title}}</h4>
+                          <h4><a href="javascript:;" @click="$store.commit('EnterResource')">{{item.title}}</a></h4>
                           <p>{{item.description}}</p>
                           <ul>
                             <li class="pull-left">{{item.humennum}}</li>
@@ -44,7 +44,7 @@
               <hr>
             </div>
             <ul>
-              <li v-for="item in LabelList">
+              <li v-for="item in $store.state.Resource.LabelList">
                 <button type="text" class="btn btn-default">
                   {{item.label}}
                 </button>
@@ -59,7 +59,7 @@
               <hr>
             </div>
             <ul>
-              <li v-for="item in DownloadList">
+              <li v-for="item in $store.state.Resource.DownloadList">
                 <div class="row">
                   <div class="col-md-4">
                     <img :src="item.img"/>
@@ -74,6 +74,7 @@
         </div>
       </div>
     </div>
+    <v-resource v-show="!$store.state.Resource.ResouerceState"></v-resource>
   </div>
 </template>
 
@@ -82,95 +83,7 @@
         name: "StudyResource",
       data(){
         return {
-          LabelList:[
-            {
-              label:'CET4'
-            },{
-              label:'CET6'
-            },{
-              label:'课后习题解析'
-            },{
-              label:'法语'
-            },{
-              label:'英语'
-            },{
-              label:'快速学习'
-            },{
-              label:'C语言'
-            }
-          ],
-          DownloadList:[
-            {
-              title:'法语教程',
-              img: 'xxx'
-            },{
-              title:'法语教程',
-              img: 'xxx'
-            },{
-              title:'法语教程',
-              img: 'xxx'
-            },{
-              title:'法语教程',
-              img: 'xxx'
-            },{
-              title:'法语教程',
-              img: 'xxx'
-            },{
-              title:'法语教程',
-              img: 'xxx'
-            }
-          ],
-          ResourceList:[
-            {
-              img:'aa',
-              title:'某资源1',
-              description:'描述',
-              humennum:'当前人数',
-              price:'免费'
-            },{
-              img:'aa',
-              title:'某资源2',
-              description:'描述',
-              humennum:'当前人数',
-              price:'免费'
-            },{
-              img:'aa',
-              title:'某资源3',
-              description:'描述',
-              humennum:'当前人数',
-              price:'免费'
-            },{
-              img:'aa',
-              title:'某资源4',
-              description:'描述',
-              humennum:'当前人数',
-              price:'免费'
-            },{
-              img:'aa',
-              title:'某资源5',
-              description:'描述',
-              humennum:'当前人数',
-              price:'免费'
-            },{
-              img:'aa',
-              title:'某资源6',
-              description:'描述',
-              humennum:'当前人数',
-              price:'免费'
-            },{
-              img:'aa',
-              title:'某资源7',
-              description:'描述',
-              humennum:'当前人数',
-              price:'免费'
-            },{
-              img:'aa',
-              title:'某资源8',
-              description:'描述',
-              humennum:'当前人数',
-              price:'免费'
-            }
-          ]
+
         }
       }
     }
