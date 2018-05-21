@@ -1,0 +1,10 @@
+.title h3,p{
+  text-align: center;
+  color: #787878;
+}
+.title h3:hover{
+  color: #111111;
+}
+ul,ol{
+  list-style: none;
+}

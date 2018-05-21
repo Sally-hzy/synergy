@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <nav class="navbar fixed-top">
+    <nav class="navbar">
       <div class="navbar-header">
         <a class="navbar-brand" href="javescript:;"><router-link tag="span" to="/Home">主页</router-link></a>
       </div>
@@ -56,9 +56,6 @@
 </script>
 
 <style scoped>
-  .navbar{
-    opacity: 0.75;
-  }
   .modal-body{
     height: 180px;
   }

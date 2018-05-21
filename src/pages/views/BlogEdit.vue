@@ -8,7 +8,7 @@
         </div>
         <div class="skill">
           <button class="btn btn-success">完成</button>
-          <button class="btn btn-warning" @click="reback">返回</button>
+          <button class="btn btn-warning" @click="$store.commit('ReturnEdit')">返回</button>
         </div>
       </div>
     </div>
@@ -26,9 +26,7 @@
       }
     },
     methods:{
-      reback(){
-        window.history.go(0);
-      }
+
     }
   }
 </script>

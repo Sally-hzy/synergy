@@ -40,12 +40,13 @@
         <div class="panel panel-default">
           <div class="panel-body labels">
             <div class="title">
+              <!--怎么做到点击标签按钮绑定事件然后出发左侧组件更新-->
               <h3>热门标签|HotLabels</h3>
               <hr>
             </div>
             <ul>
               <li v-for="item in $store.state.Resource.LabelList">
-                <button type="text" class="btn btn-default">
+                <button type="text" class="btn btn-default" >
                   {{item.label}}
                 </button>
               </li>
@@ -65,7 +66,7 @@
                     <img :src="item.img"/>
                   </div>
                   <div class="col-md-8">
-                    <span>{{item.title}}</span>
+                    <a href="javascript:;" @click="$store.commit('EnterResource')">{{item.title}}</a>
                   </div>
                 </div>
               </li>

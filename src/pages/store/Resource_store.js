@@ -97,6 +97,7 @@ export default {
     },
     ReturnResource(state){
       state.ResouerceStatee = true;
+      window.history.go(0);
     }
   }
 }
