@@ -1,0 +1,42 @@
+a:hover{
+  text-decoration: none;
+}
+.title h3,h4,p{
+  text-align: center;
+  color: #eeeeee;
+}
+.title h3:hover{
+  color: #ffe066;
+}
+.panel-body h3,h4,p{
+  text-align: center;
+  color: #eeeeee;
+}
+.panel-body h3:hover{
+  color: #111111;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  color: aliceblue;
+}
+a:hover{
+  color:#111111;
+}
+a:visited{
+  color: #111111;
+}
+.list-group,.list-group-item{
+  background-color: #787878;
+}
+body{
+  background-color: #50514f;
+  color: #111111;
+}
+nav{
+  background-color: #50514f;
+}
+.panel-default{
+  background-color: #787878;
+}

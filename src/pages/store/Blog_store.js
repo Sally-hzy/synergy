@@ -91,10 +91,10 @@ export default {
 
   },
   mutations:{
-    EnterEdit(){
+    EnterEdit(state){
       state.EditState = false;
     },
-    ReturnEdit(){
+    ReturnEdit(state){
       state.EditState = true;
       window.history.go(0);
     }

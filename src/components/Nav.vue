@@ -21,8 +21,9 @@
         </form>
         <ul class="nav navbar-nav navbar-right">
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{$store.state.Nav.Admin}} <span class="caret"></span></a>
-            <ul class="dropdown-menu" v-show="!$store.state.Nav.LandingState">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              {{$store.state.Nav.Message}} <span class="caret"></span></a>
+            <ul class="dropdown-menu" v-show="!$store.state.Nav.LandingState" >
               <li><a href="javescript:;" data-toggle="modal" data-target="#Login">登陆</a></li>
               <li><a href="javescript:;" data-toggle="modal" data-target="#Register">注册</a></li>
               <li role="separator" class="divider"></li>
@@ -30,7 +31,7 @@
             </ul>
             <ul class="dropdown-menu" v-show="$store.state.Nav.LandingState">
               <li><a href="javescript:;" data-toggle="modal" data-target="#UserCenter">个人中心</a></li>
-              <li><a href="javescript:;" data-toggle="modal" data-target="#Messages">消息</a></li>
+              <li><a href="javescript:;" data-toggle="modal" data-target="#Settings">设置</a></li>
               <li role="separator" class="divider"></li>
               <li><a href="javescript:;" @click="$store.commit('LoginOut')">退出登陆</a></li>
             </ul>
@@ -48,9 +49,12 @@
       name: "Nav",
       data(){
         return {
+
         }
       },
       methods:{
+      },
+      created () {
       }
     }
 </script>

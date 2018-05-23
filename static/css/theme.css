@@ -1,0 +1,23 @@
+a:hover{
+  text-decoration: none;
+}
+.title h3,h4,p{
+  text-align: center;
+  color: #787878;
+}
+.title h3:hover{
+  color: #111111;
+}
+ul,ol{
+  list-style: none;
+}
+.content span{
+  color: #787878;
+}
+.panel-body h3,h4,p{
+  text-align: center;
+  color: #787878;
+}
+.panel-body h3:hover{
+  color: #111111;
+}

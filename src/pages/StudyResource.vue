@@ -10,7 +10,7 @@
               <p>这里有你最想要的最新最全的资源</p>
             </div>
             <div class="row">
-              <div class="col-md-6" v-for="item in $store.state.Resource.ResourceList">
+              <div class="col-md-6" v-for="item in ResourceList">
                 <div class="panel panel-default">
                   <div class="panel-body resource">
                     <div class="row">
@@ -45,7 +45,7 @@
               <hr>
             </div>
             <ul>
-              <li v-for="item in $store.state.Resource.LabelList">
+              <li v-for="item in LabelList">
                 <button type="text" class="btn btn-default" >
                   {{item.label}}
                 </button>
@@ -60,15 +60,16 @@
               <hr>
             </div>
             <ul>
-              <li v-for="item in $store.state.Resource.DownloadList">
+              <li v-for="item in DownloadList">
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <img :src="item.img"/>
                   </div>
-                  <div class="col-md-8">
+                  <div class="col-md-9">
                     <a href="javascript:;" @click="$store.commit('EnterResource')">{{item.title}}</a>
                   </div>
                 </div>
+                <br>
               </li>
             </ul>
           </div>
@@ -84,8 +85,23 @@
         name: "StudyResource",
       data(){
         return {
-
+          ResourceList:[],
+          LabelList:[],
+          DownloadList:[]
         }
+      },
+      methods:{
+        getData() {
+          this.$axios.get("../static/Data.json",{}).then(response => {
+            console.log(response.data);
+            this.ResourceList = response.data.StudyResource.ResourceList;
+            this.LabelList = response.data.StudyResource.LabelList;
+            this.DownloadList = response.data.StudyResource.DownloadList;
+          });
+        }
+      },
+      mounted(){
+        this.getData();
       }
     }
 </script>
@@ -101,16 +117,6 @@
   .download img{
     width: 60px;
     height: 48px;
-  }
-  .title h3,p{
-    text-align: center;
-    color: #787878;
-  }
-  .title h3:hover{
-    color: #111111;
-  }
-  ul,ol{
-    list-style: none;
   }
   .labels li{
     display: inline-block;

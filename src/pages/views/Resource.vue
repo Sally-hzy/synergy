@@ -25,5 +25,5 @@
 </script>
 
 <style scoped>
-  @import "../../css/theme.css";
+  @import "../../../static/css/theme.css";
 </style>

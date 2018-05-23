@@ -8,7 +8,13 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  created() {
+    var sky = localStorage.getItem("sky");
+    if(sky){
+      $("#style").attr("href",sky); //实现将主题保存在内存中刷新浏览器不改变
+    }
+  }
 }
 </script>
 

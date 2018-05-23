@@ -1,0 +1,409 @@
+{
+  "Home":{
+    "ImgList": [
+      {
+        "name": "湖南工业大学图1",
+        "url": "../static/imgs/0.jpg"
+      },
+      {
+        "name": "湖南工业大学图2",
+        "url": "../static/imgs/1.jpg"
+      },
+      {
+        "name": "湖南工业大学图1",
+        "url": "../static/imgs/0.jpg"
+      },
+      {
+        "name": "湖南工业大学图2",
+        "url": "../static/imgs/1.jpg"
+      },
+      {
+        "name": "湖南工业大学图1",
+        "url": "../static/imgs/0.jpg"
+      },
+      {
+        "name": "湖南工业大学图2",
+        "url": "../static/imgs/1.jpg"
+      }
+    ],
+    "HeadlineList": [
+      {
+        "title": "免费公开课 | 旷视科技：计算机视觉如何赋能身份验证场景",
+        "count": 99,
+        "url":""
+      },
+      {
+        "title": "从NIO到Netty开发",
+        "count": 99,
+        "url":""
+      },
+      {
+        "title": "JSP数据交互：request对象和response对象",
+        "count": 99,
+        "url":""
+      },
+      {
+        "title": "菜鸟”程序员和“大神”程序员差距在哪里",
+        "count": 99,
+        "url":""
+      },
+      {
+        "title": "程序猿秃顶算工伤吗？",
+        "count": 99,
+        "url":""
+      },
+      {
+        "title": "IDEA搭建SpringBoot集成Jsp的辛酸历程",
+        "count": 99,
+        "url":""
+      },
+      {
+        "title": "springboot学习（二）springboot项目整合前端，添加jsp的访问？",
+        "count": 99,
+        "url":""
+      },
+      {
+        "title": "springboot学习（三）springboot项目整合前端，添加jsp的访问？",
+        "count": 99,
+        "url":""
+      },
+      {
+        "title": "springboot学习（四）springboot项目整合前端，添加jsp的访问？",
+        "count": 99,
+        "url":""
+      },
+      {
+        "title": "springboot学习（五）springboot项目整合前端，添加jsp的访问？",
+        "count": 99,
+        "url":""
+      }
+
+    ],
+    "SchoolNavList": [
+      {
+        "title": "岳阳学院",
+        "icon": "../static/imgs/schoollogo.jpg"
+      },
+      {
+        "title": "岳阳理工学院",
+        "icon": "../static/imgs/schoollogo.jpg"
+      },
+      {
+        "title": "韶关大学",
+        "icon": "../static/imgs/schoollogo.jpg"
+      },
+      {
+        "title": "湘潭大学",
+        "icon": "../static/imgs/schoollogo.jpg"
+      },
+      {
+        "title": "南京理工大学",
+        "icon": "../static/imgs/schoollogo.jpg"
+      },
+      {
+        "title": "南京理工大学",
+        "icon": "../static/imgs/schoollogo.jpg"
+      }
+    ],
+    "RecommendList": [
+      {
+        "title": "大数据实现",
+        "content": "mapreduce,hadoop,hive"
+      },
+      {
+        "title": "大数据实现",
+        "content": "mapreduce,hadoop,hive"
+      },
+      {
+        "title": "大数据实现",
+        "content": "mapreduce,hadoop,hive"
+      },
+      {
+        "title": "大数据实现",
+        "content": "mapreduce,hadoop,hive"
+      },
+      {
+        "title": "大数据实现",
+        "content": "mapreduce,hadoop,hive"
+      },
+      {
+        "title": "大数据实现",
+        "content": "mapreduce,hadoop,hive"
+      },
+      {
+        "title": "大数据实现",
+        "content": "mapreduce,hadoop,hive"
+      },
+      {
+        "title": "大数据实现",
+        "content": "mapreduce,hadoop,hive"
+      }
+    ],
+    "KindList": [
+      {
+        "kind": "最新资源|LaterstResource",
+        "path": "/StudyResource",
+        "list": [
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          },
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          },
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          },
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          }
+        ]
+      },
+      {
+        "kind": "博客|Blog",
+        "path": "/Blog",
+        "list": [
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          },
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          },
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          },
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          }
+        ]
+      },
+      {
+        "kind": "论坛|Forum",
+        "path": "/Forum",
+        "list": [
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          },
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          },
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          },
+          {
+            "title": "手把手教你一星期玩转ps",
+            "content": "pspspspspsp"
+          }
+        ]
+      }
+    ]
+  },
+  "StudyResource":{
+  "LabelList": [
+    {
+      "label": "CET4"
+    },
+    {
+      "label": "CET6"
+    },
+    {
+      "label": "课后习题解析"
+    },
+    {
+      "label": "法语"
+    },
+    {
+      "label": "英语"
+    },
+    {
+      "label": "快速学习"
+    }
+  ],
+  "DownloadList": [
+    {
+      "title": "法语教程",
+      "img": "../static/imgs/resource.jpg"
+    },
+    {
+      "title": "法语教程",
+      "img": "../static/imgs/resource.jpg"
+    },
+    {
+      "title": "法语教程",
+      "img": "../static/imgs/resource.jpg"
+    },
+    {
+      "title": "法语教程",
+      "img": "../static/imgs/resource.jpg"
+    },
+    {
+      "title": "法语教程",
+      "img": "../static/imgs/resource.jpg"
+    },
+    {
+      "title": "法语教程",
+      "img": "../static/imgs/resource.jpg"
+    },
+    {
+      "title": "法语教程",
+      "img": "../static/imgs/resource.jpg"
+    },
+    {
+      "title": "法语教程",
+      "img": "../static/imgs/resource.jpg"
+    }
+  ],
+  "ResourceList": [
+    {
+      "img":"../static/imgs/resource.jpg",
+      "title":"某资源1",
+      "description":"描述",
+      "humennum":"当前人数",
+      "price":"免费"
+    },
+    {
+      "img":"../static/imgs/resource.jpg",
+      "title":"某资源1",
+      "description":"描述",
+      "humennum":"当前人数",
+      "price":"免费"
+    },
+    {
+      "img":"../static/imgs/resource.jpg",
+      "title":"某资源1",
+      "description":"描述",
+      "humennum":"当前人数",
+      "price":"免费"
+    },
+    {
+      "img":"../static/imgs/resource.jpg",
+      "title":"某资源1",
+      "description":"描述",
+      "humennum":"当前人数",
+      "price":"免费"
+    },
+    {
+      "img":"../static/imgs/resource.jpg",
+      "title":"某资源1",
+      "description":"描述",
+      "humennum":"当前人数",
+      "price":"免费"
+    },
+    {
+      "img":"../static/imgs/resource.jpg",
+      "title":"某资源1",
+      "description":"描述",
+      "humennum":"当前人数",
+      "price":"免费"
+    },
+    {
+      "img":"../static/imgs/resource.jpg",
+      "title":"某资源1",
+      "description":"描述",
+      "humennum":"当前人数",
+      "price":"免费"
+    },
+    {
+      "img":"../static/imgs/resource.jpg",
+      "title":"某资源1",
+      "description":"描述",
+      "humennum":"当前人数",
+      "price":"免费"
+    }
+  ]
+  },
+  "Blog":{
+    "User": {
+      "name": "huzong",
+      "img": "../static/imgs/user.jpg",
+      "description": "这家伙很懒，什么也没留下...",
+      "age":21
+    },
+    "KindList": [
+      {
+        "title": "java"
+      },
+      {
+        "title": "c"
+      },
+      {
+        "title": "cpp"
+      },
+      {
+        "title": "html"
+      },
+      {
+        "title": "css"
+      },
+      {
+        "title": "js"
+      },
+      {
+        "title": "vue"
+      },
+      {
+        "title": "vuex"
+      }
+    ],
+    "BlogList": [
+      {
+        "title":"博客一说着不为人知的事情",
+        "kind":"java",
+        "author":"huzong",
+        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。"
+      },
+      {
+        "title":"博客一说着不为人知的事情",
+        "kind":"java",
+        "author":"huzong",
+        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。"
+      },
+      {
+        "title":"博客一说着不为人知的事情",
+        "kind":"java",
+        "author":"huzong",
+        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。"
+      },
+      {
+        "title":"博客一说着不为人知的事情",
+        "kind":"java",
+        "author":"huzong",
+        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。"
+      },
+      {
+        "title":"博客一说着不为人知的事情",
+        "kind":"java",
+        "author":"huzong",
+        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。"
+      },
+      {
+        "title":"博客一说着不为人知的事情",
+        "kind":"java",
+        "author":"huzong",
+        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。"
+      },
+      {
+        "title":"博客一说着不为人知的事情",
+        "kind":"java",
+        "author":"huzong",
+        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。"
+      },
+      {
+        "title":"博客一说着不为人知的事情",
+        "kind":"java",
+        "author":"huzong",
+        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。"
+      }
+    ]
+  }
+}

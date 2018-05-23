@@ -10,6 +10,7 @@ import store from './store'
 import Element from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import VueSimplemde from 'vue-simplemde'
+import axios from 'axios'
 
 //组件引入
 import Nav from './components/Nav'
@@ -32,8 +33,15 @@ Vue.component('v-footer',Footer);
 //第三方库注册
 Vue.use(Element);
 Vue.use(VueSimplemde);
-
 Vue.config.productionTip = false
+
+//为了在其他组件能使用axios将他改为vue的原型属性
+Vue.prototype.$axios = axios
+
+
+//引入mockjs,自己写的mock
+require('./mock');
+
 
 /* eslint-disable no-new */
 new Vue({

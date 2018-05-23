@@ -97,18 +97,6 @@
 </script>
 
 <style scoped>
-  ul.ol{
-    list-style: none;
-  }
-  .title h3,p{
-    text-align: center;
-  }
-  .title h3{
-    color: #787878;
-  }
-  .title h3:hover{
-    color: #111111;
-  }
   .content .tag li{
     display: inline-block;
   }

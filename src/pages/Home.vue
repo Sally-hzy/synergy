@@ -3,8 +3,8 @@
     <!--学校轮播图，介绍学校-->
     <div>
       <el-carousel :interval="4000" type="card" height="200px">
-        <el-carousel-item v-for="item in 6" :key="item">
-          <h3>{{ item }}</h3>
+        <el-carousel-item v-for="item in ImgList" >
+          <img :src="item.url" class="carousel_img">
         </el-carousel-item>
       </el-carousel>
     </div>
@@ -26,14 +26,14 @@
           <div class="panel-body">
             <div class="title">
               <h3>高校导航</h3>
-              <p>这里有提供很多别的学校的导航以及你可能会喜欢的链接</p>
+              <p>与协同过滤系统合作的高校...</p>
             </div>
             <div class="row">
               <div class="col-md-4" v-for="item in SchoolNavList">
                 <div class="panel panel-default">
                   <div class="content panel-body">
-                    <i >{{item.icon}}</i>
-                    <h4><a href="#">{{item.title}}</a></h4>
+                    <img :src="item.icon" class="schoolimg" >
+                    <h4><a href="javascript:;">{{item.title}}</a></h4>
                   </div>
                 </div>
               </div>
@@ -102,145 +102,37 @@
         name: "Home",
       data(){
         return{
+          ImgList:[
+
+          ],
           HeadlineList:[
-            {
-              title:'胡总惊险逃生',
-              count:'99'
-            },
-            {
-              title:'胡总惊险逃生',
-              count:'99'
-            },
-            {
-              title:'胡总惊险逃生',
-              count:'99'
-            },
-            {
-              title:'胡总惊险逃生',
-              count:'99'
-            },
-            {
-              title:'胡总惊险逃生',
-              count:'99'
-            }
+
           ],
           SchoolNavList:[
-            {
-              title:'岳阳学院',
-              icon:''
-            },{
-              title:'岳阳理工学院',
-              icon:''
-            },{
-              title:'韶关大学',
-              icon:''
-            },{
-              title:'湘潭大学',
-              icon:''
-            },{
-              title:'南京理工大学',
-              icon:''
-            },{
-              title:'南京财经大学',
-              icon:''
-            },
+
           ],
           RecommendList:[
-            {
-              title:'大数据实现',
-              content:'mapreduce,hadoop,hive'
-            },{
-              title:'Java',
-              content:'spring mvc hibernate struts'
-            },{
-              title:'Cpp',
-              content:'Qt'
-            },{
-              title:'Vue',
-              content:'router,vuex'
-            },{
-              title:'html,css,js',
-              content:'mxxxxxxxxx'
-            },{
-              title:'xxxxxxxxxx',
-              content:'xxxxxxxxxxxxxxx'
-            },{
-              title:'aaaaaaaaaaa',
-              content:'mssssssssssssssshive'
-            },{
-              title:'asasa现',
-              content:'maxsxsxshive'
-            }
+
           ],
           KindList:[
-            {
-              kind:'最新资源|LaterstResource',
-              path:'/StudyResource',
-              list:[
-                {
-                  title:'手把手教你一星期玩转PS',
-                  content:'pspspsp'
-                },
-                {
-                  title:'法语教学视频',
-                  content:'dajskdhkals'
-                },
-                {
-                  title:'法语教学视频',
-                  content:'dajskdhkals'
-                },
-                {
-                  title:'法语教学视频',
-                  content:'dajskdhkals'
-                }
-              ]
-            },
-            {
-              kind:'博客|Blog',
-              path:'/Blog',
-              list:[
-                {
-                  title:'手把手教你一星期玩转PS',
-                  content:'pspspsp'
-                },
-                {
-                  title:'法语教学视频',
-                  content:'dajskdhkals'
-                },
-                {
-                  title:'法语教学视频',
-                  content:'dajskdhkals'
-                },
-                {
-                  title:'法语教学视频',
-                  content:'dajskdhkals'
-                }
-              ]
-            },
-            {
-              kind:'论坛|Forum',
-              path:'/Forum',
-              list:[
-                {
-                  title:'手把手教你一星期玩转PS',
-                  content:'pspspsp'
-                },
-                {
-                  title:'法语教学视频',
-                  content:'dajskdhkals'
-                },
-                {
-                  title:'法语教学视频',
-                  content:'dajskdhkals'
-                },
-                {
-                  title:'法语教学视频',
-                  content:'dajskdhkals'
-                }
-              ]
-            }
+
           ]
         }
+      },
+      methods:{
+        getData() {
+          this.$axios.get("../static/Data.json",{}).then(response => {
+            console.log(response.data);
+            this.ImgList = response.data.Home.ImgList;
+            this.HeadlineList = response.data.Home.HeadlineList;
+            this.SchoolNavList = response.data.Home.SchoolNavList;
+            this.RecommendList = response.data.Home.RecommendList;
+            this.KindList = response.data.Home.KindList;
+          });
+        }
+      },
+      mounted(){
+          this.getData();
       }
     }
 </script>
@@ -253,20 +145,12 @@
     line-height: 200px;
     margin: 0;
   }
-
-  .el-carousel__item:nth-child(2n) {
-    background-color: #99a9bf;
+  .carousel_img{
+    width: 100%;
+    height: 100%;
   }
-
-  .el-carousel__item:nth-child(2n+1) {
-    background-color: #d3dce6;
-  }
-  .panel-body h3,p{
-    text-align: center;
-    color: #787878;
-  }
-  .panel-body h3:hover{
-    color: #111111;
+  .schoolimg{
+    width: 100%;
   }
   .content{
     overflow: hidden;
@@ -282,8 +166,5 @@
   }
   .content ul,ol{
     list-style: none;
-  }
-  .content span{
-    color: #787878;
   }
 </style>

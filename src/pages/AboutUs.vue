@@ -25,15 +25,6 @@
 </script>
 
 <style scoped>
-  .title h3,p{
-    text-align: center;
-  }
-  .title h3{
-    color: #878787;
-  }
-  .title h3:hover{
-    color: #111111;
-  }
   .content{
     height: 600px;
   }
