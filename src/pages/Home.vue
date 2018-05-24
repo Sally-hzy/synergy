@@ -3,7 +3,7 @@
     <!--学校轮播图，介绍学校-->
     <div>
       <el-carousel :interval="4000" type="card" height="200px">
-        <el-carousel-item v-for="item in ImgList" >
+        <el-carousel-item v-for="item in $store.state.Home.ImgList" >
           <img :src="item.url" class="carousel_img">
         </el-carousel-item>
       </el-carousel>
@@ -13,8 +13,8 @@
       <div class="col-md-3">
         <div class="LaterstHeadline">
           <div class="list-group">
-            <li class="list-group-item active">最新头条</li>
-            <li class="list-group-item" v-for="item in HeadlineList">
+            <li class="list-group-item headlist">最新头条</li>
+            <li class="list-group-item" v-for="item in $store.state.Home.HeadlineList">
               <a href="#">{{item.title}}
               <span class="badge pull-right">{{item.count}}</span></a>
             </li>
@@ -29,7 +29,7 @@
               <p>与协同过滤系统合作的高校...</p>
             </div>
             <div class="row">
-              <div class="col-md-4" v-for="item in SchoolNavList">
+              <div class="col-md-4" v-for="item in $store.state.Home.SchoolNavList">
                 <div class="panel panel-default">
                   <div class="content panel-body">
                     <img :src="item.icon" class="schoolimg" >
@@ -54,15 +54,15 @@
             <div class="row">
               <div class="col-md-6">
                 <ul>
-                  <li v-for="item in RecommendList">
-                    <label>{{item.title}} | <span>{{item.content}}</span></label>
+                  <li v-for="item in $store.state.Home.RecommendList">
+                    <a>{{item.title}} | <span>{{item.content}}</span></a>
                   </li>
                 </ul>
               </div>
               <div class="col-md-6 line">
                 <ul>
-                  <li v-for="item in RecommendList">
-                    <label>{{item.title}} | <span>{{item.content}}</span></label>
+                  <li v-for="item in $store.state.Home.RecommendList">
+                    <a>{{item.title}} | <span>{{item.content}}</span></a>
                   </li>
                 </ul>
               </div>
@@ -73,7 +73,7 @@
     </div>
     <!--学习资源，博客，论坛-->
     <div class="row">
-      <div class="col-md-4"v-for="items in KindList" >
+      <div class="col-md-4"v-for="items in $store.state.Home.KindList" >
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="title">
@@ -101,33 +101,17 @@
     export default {
         name: "Home",
       data(){
-        return{
-          ImgList:[
-
-          ],
-          HeadlineList:[
-
-          ],
-          SchoolNavList:[
-
-          ],
-          RecommendList:[
-
-          ],
-          KindList:[
-
-          ]
-        }
+        return{}
       },
       methods:{
         getData() {
           this.$axios.get("../static/Data.json",{}).then(response => {
             console.log(response.data);
-            this.ImgList = response.data.Home.ImgList;
-            this.HeadlineList = response.data.Home.HeadlineList;
-            this.SchoolNavList = response.data.Home.SchoolNavList;
-            this.RecommendList = response.data.Home.RecommendList;
-            this.KindList = response.data.Home.KindList;
+            this.$store.state.Home.ImgList = response.data.Home.ImgList;
+            this.$store.state.Home.HeadlineList = response.data.Home.HeadlineList;
+            this.$store.state.Home.SchoolNavList = response.data.Home.SchoolNavList;
+            this.$store.state.Home.RecommendList = response.data.Home.RecommendList;
+            this.$store.state.Home.KindList = response.data.Home.KindList;
           });
         }
       },
@@ -151,6 +135,7 @@
   }
   .schoolimg{
     width: 100%;
+    opacity: 0.7;
   }
   .content{
     overflow: hidden;

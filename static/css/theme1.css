@@ -3,40 +3,52 @@ a:hover{
 }
 .title h3,h4,p{
   text-align: center;
-  color: #eeeeee;
+  color: #363636;
 }
 .title h3:hover{
-  color: #ffe066;
+  color: #363636;
 }
 .panel-body h3,h4,p{
   text-align: center;
-  color: #eeeeee;
+  color: #363636;
 }
 .panel-body h3:hover{
-  color: #111111;
+  color: #363636;
+}
+.panel-body{
+  border-radius: 2px;
 }
 ul,ol{
   list-style: none;
 }
 a{
-  color: aliceblue;
+  color: #363636;
 }
 a:hover{
-  color:#111111;
+  color:#363636;
 }
 a:visited{
-  color: #111111;
+  color: #363636;
 }
 .list-group,.list-group-item{
-  background-color: #787878;
+  background-color: #FFCC9A;
+  color: #FF6766;
 }
 body{
-  background-color: #50514f;
-  color: #111111;
+  background-color: #FFCC9A;
+  color: #FF6766;
+  opacity: 0.9;
 }
 nav{
-  background-color: #50514f;
+  background-color: #FE6767;
 }
 .panel-default{
-  background-color: #787878;
+  background-color: #FFCC9A;
+}
+.navbar li:active{
+  background-color: #FFCC9A;
+}
+.headlist{
+  background-color: #FE6767;
+  color: #eeeeee;
 }

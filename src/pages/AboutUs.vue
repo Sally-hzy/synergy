@@ -6,7 +6,7 @@
           <div class="panel-body">
             <div class="title">
               <h3>关于我们</h3>
-              <p>描述性文字</p>
+              <p v-for="item in notes">{{item.p}}</p>
             </div>
             <div class="content">
               <p>描述内容</p>
@@ -20,12 +20,30 @@
 
 <script>
     export default {
-        name: "AboutUs"
+        name: "AboutUs",
+      data(){
+          return{
+            notes:[]
+          }
+      },
+      methods:{
+        getData() {
+          this.$axios.get("../static/Data.json",{}).then(response => {
+            console.log(response.data);
+            this.notes= response.data.AboutUs.Notes;
+          });
+        }
+      },created(){
+          this.getData();
+      }
     }
 </script>
 
 <style scoped>
   .content{
-    height: 600px;
+    height: 400px;
+  }
+  p{
+    text-align: left;
   }
 </style>

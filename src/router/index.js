@@ -26,12 +26,18 @@ export default new Router({
         {
           path: '/Blog',
           component: resolve => require(['../pages/Blog.vue'], resolve),
-          meta: { title: '博客' }
+          meta: {
+            title: '博客',
+            requireAuth: true
+          }
         },
         {
           path: '/Forum',
           component: resolve => require(['../pages/Forum.vue'], resolve),
-          meta: { title: '论坛' }
+          meta: {
+            title: '论坛',
+            requireAuth: true
+          }
         },
         {
           path: '/AboutUs',

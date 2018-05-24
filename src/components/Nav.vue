@@ -23,13 +23,13 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
               {{$store.state.Nav.Message}} <span class="caret"></span></a>
-            <ul class="dropdown-menu" v-show="!$store.state.Nav.LandingState" >
+            <ul class="dropdown-menu" v-show="$store.state.Nav.LandingState=='2'?true:false" >
               <li><a href="javescript:;" data-toggle="modal" data-target="#Login">登陆</a></li>
               <li><a href="javescript:;" data-toggle="modal" data-target="#Register">注册</a></li>
               <li role="separator" class="divider"></li>
               <li><a href="javescript:;" data-toggle="modal" data-target="#Settings">设置</a></li>
             </ul>
-            <ul class="dropdown-menu" v-show="$store.state.Nav.LandingState">
+            <ul class="dropdown-menu" v-show="$store.state.Nav.LandingState=='1'?true:false">
               <li><a href="javescript:;" data-toggle="modal" data-target="#UserCenter">个人中心</a></li>
               <li><a href="javescript:;" data-toggle="modal" data-target="#Settings">设置</a></li>
               <li role="separator" class="divider"></li>
@@ -48,13 +48,17 @@
     export default {
       name: "Nav",
       data(){
-        return {
-
-        }
       },
       methods:{
+        getData() {
+          this.$axios.get("../static/Data.json",{}).then(response => {
+            console.log(response.data);
+            this.$store.state.Nav.User = response.data.Blog.User;
+          });
+        }
       },
       created () {
+        this.getData();
       }
     }
 </script>

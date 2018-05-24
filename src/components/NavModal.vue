@@ -113,7 +113,7 @@
                         <a @click="Change(2)">清爽蓝</a>
                       </li>
                       <li>
-                        <a @click="Change(1)">优雅黑</a>
+                        <a @click="Change(1)">热烈粉</a>
                       </li>
                     </ul>
                   </div>
@@ -136,26 +136,18 @@
           </div>
           <div class="modal-body">
             <form class="form-horizontal" role="form">
-              更改个人资料
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-            <button type="button" class="btn btn-primary" @click="$store.commit('Login')" data-dismiss="modal">登陆</button>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal -->
-    </div>
-    <div class="modal fade" id="Messages" tabindex="-1" role="dialog" aria-labelledby="Messagest" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title" id="Messagest">您好游客，请登录！</h4>
-          </div>
-          <div class="modal-body">
-            <form class="form-horizontal" role="form">
-
+              <div class="form-group">
+                <label class="col-sm-2 control-label">更改个人描述：</label>
+                <div class="col-sm-10">
+                  <input type="User" class="form-control"  placeholder="请输入描述" >
+                </div>
+              </div>
+              <div class="form-group">
+                <label  class="col-sm-2 control-label">上传图片：</label>
+                <div class="col-sm-10">
+                  <input type="file" class="btn btn-default" onchange="loadFile(this.files[0])"   >
+                </div>
+              </div>
             </form>
           </div>
           <div class="modal-footer">

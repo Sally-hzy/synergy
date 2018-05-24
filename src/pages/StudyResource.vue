@@ -10,7 +10,7 @@
               <p>这里有你最想要的最新最全的资源</p>
             </div>
             <div class="row">
-              <div class="col-md-6" v-for="item in ResourceList">
+              <div class="col-md-6" v-for="item in $store.state.Resource.ResourceList">
                 <div class="panel panel-default">
                   <div class="panel-body resource">
                     <div class="row">
@@ -19,7 +19,7 @@
                       </div>
                       <div class="col-md-7">
                         <div class="title">
-                          <h4><a href="javascript:;" @click="$store.commit('EnterResource')">{{item.title}}</a></h4>
+                          <h4><a href="javascript:;" @click="$store.commit('EnterResource',item.id)">{{item.title}}</a></h4>
                           <p>{{item.description}}</p>
                           <ul>
                             <li class="pull-left">{{item.humennum}}</li>
@@ -45,7 +45,7 @@
               <hr>
             </div>
             <ul>
-              <li v-for="item in LabelList">
+              <li v-for="item in $store.state.Resource.LabelList">
                 <button type="text" class="btn btn-default" >
                   {{item.label}}
                 </button>
@@ -60,7 +60,7 @@
               <hr>
             </div>
             <ul>
-              <li v-for="item in DownloadList">
+              <li v-for="item in $store.state.Resource.DownloadList">
                 <div class="row">
                   <div class="col-md-3">
                     <img :src="item.img"/>
@@ -85,18 +85,15 @@
         name: "StudyResource",
       data(){
         return {
-          ResourceList:[],
-          LabelList:[],
-          DownloadList:[]
         }
       },
       methods:{
         getData() {
           this.$axios.get("../static/Data.json",{}).then(response => {
             console.log(response.data);
-            this.ResourceList = response.data.StudyResource.ResourceList;
-            this.LabelList = response.data.StudyResource.LabelList;
-            this.DownloadList = response.data.StudyResource.DownloadList;
+            this.$store.state.Resource.ResourceList = response.data.StudyResource.ResourceList;
+            this.$store.state.Resource.LabelList = response.data.StudyResource.LabelList;
+            this.$store.state.Resource.DownloadList = response.data.StudyResource.DownloadList;
           });
         }
       },
