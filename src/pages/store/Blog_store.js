@@ -16,6 +16,14 @@ export default {
     },
     EnterBlog(state){
       state.BlogState = true;
+      axios.get(url,{
+
+        }
+      ).then(function (response) {
+          //console.log(response);
+      }).catch(function (error) {
+          //console.log(error);
+      });
     },
     ReturnBlog(state){
       state.BlogState = false;

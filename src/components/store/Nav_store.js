@@ -6,6 +6,20 @@ export default {
   },
   mutations: {
     Login: function (state) {
+      /*
+      提交请求，下面三行在请求成功里
+      axios.get(url, {
+         }
+      })
+      .then(function (response) {
+          state.LandingState = "1";//狗比localstorage不能存储boolean值  wtf
+          localStorage.setItem('landing', "1");
+          localStorage.setItem('user', state.Message);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+       */
       state.LandingState = "1";//狗比localstorage不能存储boolean值  wtf
       localStorage.setItem('landing', "1");
       localStorage.setItem('user', state.Message);

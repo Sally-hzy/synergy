@@ -42,7 +42,7 @@
           </div>
         </div>
       </div>
-        <div class="col-md-8" v-show="$store.state.Blog.BlogState">
+      <div class="col-md-8" v-show="$store.state.Blog.BlogState">
         <div class="panel panel-default">
           <div class="panel-body" v-for="item in $store.state.Blog.BlogList">
             <div class="title">
