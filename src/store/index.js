@@ -8,7 +8,7 @@ import Nav_store from '../components/store/Nav_store'
 import Resource_store from '../pages/store/Resource_store'
 import Blog_store from '../pages/store/Blog_store'
 import Home_store from '../pages/store/Home_store'
-import Forum_store from '../pages/store/Forum'
+import Forum_store from '../pages/store/Forum_store'
 
 export default new vuex.Store({
   state:{

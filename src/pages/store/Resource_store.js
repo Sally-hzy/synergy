@@ -4,6 +4,7 @@ export default {
     ResourceList:[],
     LabelList:[],
     DownloadList:[],
+    FileList:[],
     Resource:{}
   },
   mutations:{

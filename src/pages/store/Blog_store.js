@@ -4,6 +4,7 @@ export default {
     User:{},
     KindList:[],
     BlogList:[],
+    BlogRecommend:[],
     BlogState:false
   },
   mutations:{

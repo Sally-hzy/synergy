@@ -123,44 +123,68 @@
     ],
     "RecommendList": [
       {
-        "title": "大数据实现",
-        "content": "mapreduce,hadoop,hive",
-        "url":""
+        "title":"Vue 使用axios 发送post请求,参数格式有错误问题",
+        "kind":"Vue",
+        "author":"赵四",
+        "content":"2018/5/7",
+        "url":"",
+        "id":""
       },
       {
-        "title": "大数据实现",
-        "content": "mapreduce,hadoop,hive",
-        "url":""
+        "title":"JavaScript中的this指针 理论化this指针的定义",
+        "kind":"JavaScript",
+        "author":"赵四",
+        "content":"2018/6/7",
+        "url":"",
+        "id":""
       },
       {
-        "title": "大数据实现",
-        "content": "mapreduce,hadoop,hive",
-        "url":""
+        "title":"IBM Cloud 汇聚全球智慧，赋予开发者新能量",
+        "kind":"java",
+        "author":"赵四",
+        "content":"2018/8/24",
+        "url":"",
+        "id":""
       },
       {
-        "title": "大数据实现",
-        "content": "mapreduce,hadoop,hive",
-        "url":""
+        "title":"servlet与jsp互相跳转之间产生的空指针异常",
+        "kind":"java",
+        "author":"赵四",
+        "content":"2018/9/47",
+        "url":"",
+        "id":""
       },
       {
-        "title": "大数据实现",
-        "content": "mapreduce,hadoop,hive",
-        "url":""
+        "title":"大数据最佳学习路线",
+        "kind":"java",
+        "author":"赵四",
+        "content":"2018/4/28",
+        "url":"",
+        "id":""
       },
       {
-        "title": "大数据实现",
-        "content": "mapreduce,hadoop,hive",
-        "url":""
+        "title":"SpringBoot（九）：SpringBoot使用Druid数据源",
+        "kind":"java",
+        "author":"赵四",
+        "content":"2018/3/12",
+        "url":"",
+        "id":""
       },
       {
-        "title": "大数据实现",
-        "content": "mapreduce,hadoop,hive",
-        "url":""
+        "title":"<mvc:resources />标签新老版本解析不同，是bug还是？",
+        "kind":"java",
+        "author":"赵四",
+        "content":"2018/12/12",
+        "url":"",
+        "id":""
       },
       {
-        "title": "大数据实现",
-        "content": "mapreduce,hadoop,hive",
-        "url":""
+        "title":"windows中使用Python进行AES加密解密-文本文件加密工具",
+        "kind":"java",
+        "author":"赵四",
+        "content":"2018/12/12",
+        "url":"",
+        "id":""
       }
     ],
     "KindList": [
@@ -169,22 +193,27 @@
         "path": "/StudyResource",
         "list": [
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "法语教程",
             "content": "pspspspspsp",
             "url":""
           },
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "CET4，6全攻略",
             "content": "pspspspspsp",
             "url":""
           },
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "全网最热Python3入门+进阶 更快上手实际开发",
             "content": "pspspspspsp",
             "url":""
           },
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "玩转数据结构 从入门到进阶",
+            "content": "pspspspspsp",
+            "url":""
+          },
+          {
+            "title": "React Native技术精讲与高质量上线APP开发",
             "content": "pspspspspsp",
             "url":""
           }
@@ -195,7 +224,12 @@
         "path": "/Blog",
         "list": [
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "Vue 使用axios 发送post请求",
+            "content": "pspspspspsp",
+            "url":""
+          },
+          {
+            "title": "JavaScript中的this指针 理论化this指针的定义",
             "content": "pspspspspsp",
             "url":""
           },
@@ -205,12 +239,12 @@
             "url":""
           },
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "IBM Cloud 汇聚全球智慧，赋予开发者新能量",
             "content": "pspspspspsp",
             "url":""
           },
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "大数据最佳学习路线",
             "content": "pspspspspsp",
             "url":""
           }
@@ -221,22 +255,27 @@
         "path": "/Forum",
         "list": [
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "java专区",
             "content": "pspspspspsp",
             "url":""
           },
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "程序员相亲",
             "content": "pspspspspsp",
             "url":""
           },
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "秃顶算工伤吗？？？",
             "content": "pspspspspsp",
             "url":""
           },
           {
-            "title": "手把手教你一星期玩转ps",
+            "title": "黑客入门",
+            "content": "pspspspspsp",
+            "url":""
+          },
+          {
+            "title": "教学分享",
             "content": "pspspspspsp",
             "url":""
           }
@@ -273,43 +312,43 @@
         "url":""
       },
       {
-        "title": "法语教程",
+        "title": "软件工程",
         "img": "../static/imgs/resource1.jpg",
         "label":"",
         "url":""
       },
       {
-        "title": "法语教程",
+        "title": "编译原理",
         "img": "../static/imgs/resource2.jpg",
         "label":"",
         "url":""
       },
       {
-        "title": "法语教程",
+        "title": "大数据教程",
         "img": "../static/imgs/resource.jpg",
         "label":"",
         "url":""
       },
       {
-        "title": "法语教程",
+        "title": "springboot入门",
         "img": "../static/imgs/resource1.jpg",
         "label":"",
         "url":""
       },
       {
-        "title": "法语教程",
+        "title": "CET4，6全攻略",
         "img": "../static/imgs/resource2.jpg",
         "label":"",
         "url":""
       },
       {
-        "title": "法语教程",
+        "title": "vue2.0入门教程",
         "img": "../static/imgs/resource.jpg",
         "label":"",
         "url":""
       },
       {
-        "title": "法语教程",
+        "title": "react native",
         "img": "../static/imgs/resource1.jpg",
         "label":"",
         "url":""
@@ -318,8 +357,8 @@
     "ResourceList": [
       {
         "img":"../static/imgs/resource1.jpg",
-        "title":"某资源1",
-        "description":"描述",
+        "title":"法语教程",
+        "description":"最新最全的法语系统入门",
         "humennum":"当前人数",
         "price":"免费",
         "url":"",
@@ -327,8 +366,8 @@
       },
       {
         "img":"../static/imgs/resource2.jpg",
-        "title":"某资源1",
-        "description":"描述",
+        "title":"CET4，6全攻略",
+        "description":"让你轻松无压力水过",
         "humennum":"当前人数",
         "price":"免费",
         "url":"",
@@ -336,8 +375,8 @@
       },
       {
         "img":"../static/imgs/resource.jpg",
-        "title":"某资源1",
-        "description":"描述",
+        "title":"vue2.0入门教程",
+        "description":"前端开发进阶之路",
         "humennum":"当前人数",
         "price":"免费",
         "url":"",
@@ -345,8 +384,8 @@
       },
       {
         "img":"../static/imgs/resource1.jpg",
-        "title":"某资源1",
-        "description":"描述",
+        "title":"react native",
+        "description":"这些技能你都学会了吗",
         "humennum":"当前人数",
         "price":"免费",
         "url":"",
@@ -354,8 +393,8 @@
       },
       {
         "img":"../static/imgs/resource2.jpg",
-        "title":"某资源1",
-        "description":"描述",
+        "title":"springboot入门",
+        "description":"这些技能你都学会了嘛",
         "humennum":"当前人数",
         "price":"免费",
         "url":"",
@@ -363,8 +402,8 @@
       },
       {
         "img":"../static/imgs/resource.jpg",
-        "title":"某资源1",
-        "description":"描述",
+        "title":"nosql全攻略",
+        "description":"数据库大全",
         "humennum":"当前人数",
         "price":"免费",
         "url":"",
@@ -372,8 +411,8 @@
       },
       {
         "img":"../static/imgs/resource1.jpg",
-        "title":"某资源1",
-        "description":"描述",
+        "title":"大数据教程",
+        "description":"最火的技术",
         "humennum":"当前人数",
         "price":"免费",
         "url":"",
@@ -381,12 +420,125 @@
       },
       {
         "img":"../static/imgs/resource2.jpg",
-        "title":"某资源1",
-        "description":"描述",
+        "title":"编译原理",
+        "description":"这些知识你掌握了嘛",
         "humennum":"当前人数",
         "price":"免费",
         "url":"",
         "id":""
+      }
+    ],
+    "FileList": [
+      {
+        "kind":"年度热门",
+        "img":"../static/imgs/resource.jpg",
+        "description":"热门行业报告大揭秘",
+        "filelist":[
+          {
+            "img":"../static/imgs/resource1.jpg",
+            "title":"react native",
+            "description":"这些技能你都学会了吗",
+            "humennum":"当前人数",
+            "price":"免费",
+            "url":"",
+            "id":"",
+            "type":"iconfont icon-word"
+          },
+          {
+            "img":"../static/imgs/resource2.jpg",
+            "title":"springboot入门",
+            "description":"这些技能你都学会了嘛",
+            "humennum":"当前人数",
+            "price":"免费",
+            "url":"",
+            "id":"",
+            "type":"iconfont icon-word"
+          },
+          {
+            "img":"../static/imgs/resource.jpg",
+            "title":"nosql全攻略",
+            "description":"数据库大全",
+            "humennum":"当前人数",
+            "price":"免费",
+            "url":"",
+            "id":"",
+            "type":"iconfont icon-word"
+          }
+        ]
+      },
+      {
+        "kind":"技术热门",
+        "img":"../static/imgs/resource1.jpg",
+        "description":"热门行业报告大揭秘",
+        "filelist":[
+          {
+            "img":"../static/imgs/resource1.jpg",
+            "title":"法语教程",
+            "description":"最新最全的法语系统入门",
+            "humennum":"当前人数",
+            "price":"免费",
+            "url":"",
+            "id":"",
+            "type":"iconfont icon-word"
+          },
+          {
+            "img":"../static/imgs/resource2.jpg",
+            "title":"CET4，6全攻略",
+            "description":"让你轻松无压力水过",
+            "humennum":"当前人数",
+            "price":"免费",
+            "url":"",
+            "id":"",
+            "type":"iconfont icon-Excel"
+          },
+          {
+            "img":"../static/imgs/resource.jpg",
+            "title":"vue2.0入门教程",
+            "description":"前端开发进阶之路",
+            "humennum":"当前人数",
+            "price":"免费",
+            "url":"",
+            "id":"",
+            "type":"iconfont icon-ppt"
+          }
+        ]
+      },
+      {
+        "kind":"热门攻略",
+        "img":"../static/imgs/resource2.jpg",
+        "description":"热门行业报告大揭秘",
+        "filelist":[
+          {
+            "img":"../static/imgs/resource1.jpg",
+            "title":"大数据教程",
+            "description":"最火的技术",
+            "humennum":"当前人数",
+            "price":"免费",
+            "url":"",
+            "id":"",
+            "type":"iconfont icon-word"
+          },
+          {
+            "img":"../static/imgs/resource2.jpg",
+            "title":"编译原理",
+            "description":"这些知识你掌握了嘛",
+            "humennum":"当前人数",
+            "price":"免费",
+            "url":"",
+            "id":"",
+            "type":"iconfont icon-word"
+          },
+          {
+            "img":"../static/imgs/resource1.jpg",
+            "title":"react native",
+            "description":"这些技能你都学会了吗",
+            "humennum":"当前人数",
+            "price":"免费",
+            "url":"",
+            "id":"",
+            "type":"iconfont icon-PDF"
+          }
+        ]
       }
     ]
   },
@@ -419,7 +571,121 @@
     ],
     "BlogList": [
       {
-        "title":"博客一说着不为人知的事情",
+        "title":"大数据时代 面临的七个挑战和八大趋势",
+        "kind":"java",
+        "author":"huzong",
+        "content":"大数据挑战和机遇并存，大数据在未来几年的发展将从前几年的预期膨胀阶段、炒作阶段转入理性发展阶段、落地应用阶段，大数据在未来几年将逐渐步入理性发展期。未来的大数据发展依然存在诸多挑战，但前景依然非常乐观。",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"经历≠经验，码农如何工作10年依然是菜鸟？",
+        "kind":"java",
+        "author":"huzong",
+        "content":"说实话，工作10年不等于是高手；高手也不等于要工作时间久。圣人曾经曰过：“工作经历不等于工作经验”。工作10年，只是一个“经历”，而“经历”不能得以总结、归纳和升华，就无法转化为“经验”。一个2年“工作经验”的工程师水平可能远高于一个10年“工作经历”的工程师。",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"机器学习：如何找到最优学习率",
+        "kind":"java",
+        "author":"huzong",
+        "content":"目前深度学习使用的都是非常简单的一阶收敛算法，梯度下降法，不管有多少自适应的优化算法，本质上都是对梯度下降法的各种变形，所以初始学习率对深层网络的收敛起着决定性的作用，下面就是梯度下降法的公式",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"程序猿秃顶算工伤吗？",
+        "kind":"java",
+        "author":"huzong",
+        "content":"在各个年龄段的程序猿中，70后以年龄优势遥遥领先，80后开始油腻，90后开始掉发，掉发的迅猛程度隐隐有赶超80后的趋势，脱单已然不是他们最担心的问题，脱发才是!",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"数据分析中的可视化-常见图形",
+        "kind":"java",
+        "author":"huzong",
+        "content":"import matplotlib.pyplot as pltimport pandas as pdfrom pandas import Series, DataFrame",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"jsp走向没落?",
+        "kind":"java",
+        "author":"huzong",
+        "content":"以前的项目大多数都是java程序猿又当爹又当妈，又搞前端（ajax/jquery/js/html/css等等），又搞后端（java/mysql/Oracle等等）。",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"python爬虫学习:电商数据分析",
+        "kind":"java",
+        "author":"huzong",
+        "content":"通常我们在使用爬虫的时候会爬取很多数据,而这些数据里边什么是有用的数据,什么是没用的数据这个是值得我们关注的,在这一篇文章里,我们将通过一个简单的爬虫,来去简单介绍下如何使用python来去做数据分析。",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"《王者荣耀》2亿用户量的背后：产品定位、技术架构、网络方案等",
+        "kind":"java",
+        "author":"huzong",
+        "content":"作为一个国民级手游，《王者荣耀》公测几年来的表现一直很强势。在耀眼的成绩背后，到底是什么样的技术支撑了这个用户量破2亿的游戏？王者上线前后在技术上有哪些变化、又是如何处理网络问题的？",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"axios全攻略",
+        "kind":"java",
+        "author":"huzong",
+        "content":"随着 vuejs 作者尤雨溪发布消息，不再继续维护vue-resource，并推荐大家使用 axios 开始，axios 被越来越多的人所了解。本来想在网上找找详细攻略，突然发现，axios 的官方文档本身就非常详细！！有这个还要什么自行车！！所以推荐大家学习这种库，最好详细阅读其官方文档。大概翻译了一下 axios 的官方文档，相信大家只要吃透本文再加以实践，axios 就是小意思啦！！",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"springboot全局异常控制处理",
+        "kind":"java",
+        "author":"huzong",
+        "content":"1.请求404时候，如果配置文件开启了spring.resources.add-mappings=false，表示不开启默认的资源处理，采用",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"《王者荣耀》2亿用户量的背后：产品定位、技术架构、网络方案等",
+        "kind":"java",
+        "author":"huzong",
+        "content":"作为一个国民级手游，《王者荣耀》公测几年来的表现一直很强势。在耀眼的成绩背后，到底是什么样的技术支撑了这个用户量破2亿的游戏？王者上线前后在技术上有哪些变化、又是如何处理网络问题的？",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"从资源爬取到个人微信公众号开发：使用 Python 打造公众号电影搜索器",
+        "kind":"java",
+        "author":"huzong",
+        "content":"Python 网络爬虫的教程现在可谓是满天飞，只要是个接受过通识教育的人，学习一下上手简单的 Python 编程语言，就能够写出一个简单的爬虫来，但是如何将爬虫爬取的数据用起来似乎很多人并没有过多的考虑。",
+        "url":"",
+        "id":""
+      }
+    ],
+    "BlogRecommend": [
+      {
+        "title":"Vue 使用axios 发送post请求,参数格式有错误问题",
+        "kind":"Vue",
+        "author":"赵四",
+        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"JavaScript中的this指针 理论化this指针的定义",
+        "kind":"JavaScript",
+        "author":"huzong",
+        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"IBM Cloud 汇聚全球智慧，赋予开发者新能量",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
@@ -427,7 +693,7 @@
         "id":""
       },
       {
-        "title":"博客一说着不为人知的事情",
+        "title":"servlet与jsp互相跳转之间产生的空指针异常",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
@@ -435,7 +701,7 @@
         "id":""
       },
       {
-        "title":"博客一说着不为人知的事情",
+        "title":"大数据最佳学习路线",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
@@ -443,7 +709,7 @@
         "id":""
       },
       {
-        "title":"博客一说着不为人知的事情",
+        "title":"SpringBoot（九）：SpringBoot使用Druid数据源",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
@@ -451,7 +717,7 @@
         "id":""
       },
       {
-        "title":"博客一说着不为人知的事情",
+        "title":"<mvc:resources />标签新老版本解析不同，是bug还是？",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
@@ -459,23 +725,7 @@
         "id":""
       },
       {
-        "title":"博客一说着不为人知的事情",
-        "kind":"java",
-        "author":"huzong",
-        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
-        "url":"",
-        "id":""
-      },
-      {
-        "title":"博客一说着不为人知的事情",
-        "kind":"java",
-        "author":"huzong",
-        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
-        "url":"",
-        "id":""
-      },
-      {
-        "title":"博客一说着不为人知的事情",
+        "title":"windows中使用Python进行AES加密解密-文本文件加密工具",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
@@ -522,7 +772,39 @@
     ],
     "TipList": [
       {
-        "title":"话题一说着不为人知的事情",
+        "title":"公开课 | 比MobileNet更高效，微软资深研究员详解基于交错组卷积的高效DNN",
+        "kind":"java",
+        "author":"huzong",
+        "content":"卷积神经网络在近几年获得了跨越式的发展，虽然它们在诸如图像识",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"欢迎使用 IBM Cloud，这里有 170 多种独一无二的服务。立即开始构建。",
+        "kind":"java",
+        "author":"huzong",
+        "content":"定价目录文档支持状态",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"JavaScript中的this指针 理论化this指针的定义",
+        "kind":"java",
+        "author":"huzong",
+        "content":"JavaScript现在应用之广泛，远超其他任何语言，只要是一个合格的网站应用，基本上多多少少都会有JS的存在。在JavaScript",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"计算机如何处理图片以及KNN图片识别",
+        "kind":"java",
+        "author":"huzong",
+        "content":"一张美景图，欣赏一下大自然，顺便大家猜猜这是哪里",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"话题",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
@@ -530,7 +812,32 @@
         "id":""
       },
       {
-        "title":"话题一说着不为人知的事情",
+        "title":"PC如何存储图片？",
+        "kind":"java",
+        "author":"huzong",
+        "content":" 图片在计算机中是一个三维矩阵，让我们通过一个图片直观感受一下,如下图是训练集中第一个类型",
+        "url":"",
+        "id":""
+      },
+      {
+        "title":"三原色原理",
+        "kind":"java",
+        "author":"huzong",
+        "content":"说道这里难免会有些好奇、有些疑问了，为什么是三原色？为什么不是四原色、五元色呢？",
+        "id":""
+      },
+      {
+        "title":"图像识别-计算",
+        "kind":"java",
+        "author":"huzong",
+        "content":"一张图片在屏幕上面如果无限缩小会看到是由",
+        "url":"",
+        "id":""
+      }
+    ],
+    "ForumList":[
+      {
+        "title":"程序员秃顶",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
@@ -538,7 +845,7 @@
         "id":""
       },
       {
-        "title":"话题一说着不为人知的事情",
+        "title":"头脑风暴",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
@@ -546,7 +853,7 @@
         "id":""
       },
       {
-        "title":"话题一说着不为人知的事情",
+        "title":"程序员相亲",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
@@ -554,31 +861,7 @@
         "id":""
       },
       {
-        "title":"话题客一说着不为人知的事情",
-        "kind":"java",
-        "author":"huzong",
-        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
-        "url":"",
-        "id":""
-      },
-      {
-        "title":"话题一说着不为人知的事情",
-        "kind":"java",
-        "author":"huzong",
-        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
-        "url":"",
-        "id":""
-      },
-      {
-        "title":"话题一说着不为人知的事情",
-        "kind":"java",
-        "author":"huzong",
-        "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",
-        "url":"",
-        "id":""
-      },
-      {
-        "title":"话题一说着不为人知的事情",
+        "title":"不为人知的背后",
         "kind":"java",
         "author":"huzong",
         "content":"本章将讲解 Bootstrap 徽章（Badges）。徽章与标签相似，主要的区别在于徽章的边角更加圆滑徽章（Badges）主要用于突出显示新的或未读的项。如需使用徽章，只需要把 badge添加到链接、Bootstrap 导航等这些元素上即可。",

@@ -32,8 +32,8 @@
             </div>
             <hr>
         <div class="list-group">
-          <li class="list-group-item" v-for="item in 6">
-            <a>{{item}}</a>
+          <li class="list-group-item" v-for="item in $store.state.Forum.KindList">
+            <a>{{item.title}}</a>
           </li>
         </div>
       </div>
@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-        <div class="panel panel-default">
+        <div class="panel panel-default forumcontent">
           <div class="panel-body">
             <div class="row">
               <div class="col-md-10">
@@ -62,7 +62,6 @@
                   <div class="panel-body" v-show="!$store.state.Forum.TipState">
                     <div class="title">
                       <h4><a href="javascript:;" @click="$store.commit('EnterTip')">{{item.title}}</a></h4>
-                      <span>{{item.user}}</span>
                       <p>{{item.content}}</p>
                     </div>
                   </div>
@@ -89,7 +88,11 @@
                 </div>
                 <div class="list-group">
                   <li class="list-group-item headlist">论坛精选</li>
-                  <li class="list-group-item" v-for="item in 8">{{item}}</li>
+                  <li class="list-group-item" v-for="item in $store.state.Forum.ForumList">
+                    <a href="javascript:;">
+                      {{item.title}}
+                    </a>
+                  </li>
                 </div>
               </div>
             </div>
@@ -115,6 +118,7 @@
             this.$store.state.Forum.User = response.data.User;
             this.$store.state.Forum.KindList = response.data.Forum.KindList;
             this.$store.state.Forum.TipList = response.data.Forum.TipList;
+            this.$store.state.Forum.ForumList = response.data.Forum.ForumList;
           });
         }
       },
@@ -131,5 +135,8 @@
   .user img{
     width: 45px;
     height: 45px;
+  }
+  .forumcontent p,h4{
+    text-align: left;
   }
 </style>

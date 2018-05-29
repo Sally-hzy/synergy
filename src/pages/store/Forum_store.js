@@ -3,6 +3,7 @@ export default {
     User:{},
     KindList:[],
     TipList:[],
+    ForumList:[],
     TipState:false
   },
   mutations:{

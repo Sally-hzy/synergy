@@ -5,6 +5,9 @@ a:hover{
   text-align: center;
   color: #787878;
 }
+.title h3,h4{
+  font-weight:bold;
+}
 .title h3:hover{
   color: #111111;
 }

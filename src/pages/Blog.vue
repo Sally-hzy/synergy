@@ -20,6 +20,13 @@
             <p>{{$store.state.Blog.User.description}}</p>
           </div>
         </div>
+        <br>
+        <div class="list-group">
+          <li class="list-group-item headlist">博文推荐</li>
+          <li class="list-group-item" v-for="item in $store.state.Blog.BlogRecommend">
+            <a href="javascript:;">{{item.title}}</a>
+          </li>
+        </div>
       </div>
       <!--博客内容-->
       <div class="col-md-8"  v-show="!$store.state.Blog.BlogState">
@@ -36,6 +43,7 @@
                 <li v-for="item in $store.state.Blog.BlogList">
                   <a href="javescript:;" class="blogtitle" @click="$store.commit('EnterBlog')">{{item.title}}</a>
                   <p>{{item.content}}</p>
+                  <br>
                 </li>
               </ul>
             </div>
@@ -85,6 +93,7 @@
             this.$store.state.Blog.User = response.data.User;
             this.$store.state.Blog.KindList = response.data.Blog.KindList;
             this.$store.state.Blog.BlogList = response.data.Blog.BlogList;
+            this.$store.state.Blog.BlogRecommend = response.data.Blog.BlogRecommend;
           });
         }
       },

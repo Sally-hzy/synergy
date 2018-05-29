@@ -21,6 +21,7 @@ export default {
       });
        */
       state.LandingState = "1";//狗比localstorage不能存储boolean值  wtf
+      state.Message = "胡总";
       localStorage.setItem('landing', "1");
       localStorage.setItem('user', state.Message);
     },

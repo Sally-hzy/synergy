@@ -6,8 +6,8 @@
         <div class="panel panel-default">
           <div class="panel-body content">
             <div class="title">
-              <h3>最新资源|LatestResource</h3>
-              <p>这里有你最想要的最新最全的资源</p>
+              <h3>最新视频|LatestVideo</h3>
+              <p>这里有你最想要的最新最全的视频资源</p>
             </div>
             <div class="row">
               <div class="col-md-6" v-for="item in $store.state.Resource.ResourceList">
@@ -32,6 +32,40 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body content">
+            <div class="title">
+              <h3>最新文件|LatestFile</h3>
+              <p>这里有你最想要的最新最全的文件资源</p>
+            </div>
+            <div class="row file">
+              <div class="col-md-4" v-for="items in $store.state.Resource.FileList">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h4>{{items.kind}}</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <img :src="items.img">
+                  </div>
+                  <div class="col-md-6">
+                    <span>{{items.description}}</span>
+                  </div>
+                  <div class="col-md-12">
+                    <p></p>
+                  </div>
+                  <div class="col-md-12">
+                    <ul>
+                      <li v-for="a in items.filelist">
+                        <i v-bind:class="a.type"></i>
+                        <a href="javascript:;">{{a.title}}</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div><!--写在这里-->
           </div>
         </div>
       </div>
@@ -94,6 +128,7 @@
             this.$store.state.Resource.ResourceList = response.data.StudyResource.ResourceList;
             this.$store.state.Resource.LabelList = response.data.StudyResource.LabelList;
             this.$store.state.Resource.DownloadList = response.data.StudyResource.DownloadList;
+            this.$store.state.Resource.FileList = response.data.StudyResource.FileList;
           });
         }
       },
@@ -117,5 +152,19 @@
   }
   .labels li{
     display: inline-block;
+  }
+  .file img{
+    width: 120px;
+    height: 80px;
+  }
+  .file h4{
+    text-align: left;
+    font-weight:600;
+  }
+  .file li{
+    margin-left: -40px;
+  }
+  .file a{
+    color: #363636;
   }
 </style>
