@@ -49,8 +49,10 @@
               <h3>{{item.title}}</h3>
             </div>
             <div class="content">
-
+              {{item.content}}
             </div>
+          </div>
+          <div class="panel-body">
             <div class="footer">
               <button class="btn btn-danger" @click="$store.commit('ReturnBlog')">返回</button>
             </div>

@@ -8,6 +8,7 @@
         </div>
         <div class="skill">
           <button class="btn btn-success">完成</button>
+          <markdown-editor preview-class="markdown-body"></markdown-editor><!--markdown引入样式问题-->
           <button class="btn btn-warning" @click="$store.commit('ReturnEdit')">返回</button>
         </div>
       </div>
@@ -16,9 +17,12 @@
 </template>
 
 <script>
-
+  import markdownEditer from 'vue-simplemde/src/markdown-editor'
   export default {
     name: "BlogEdit",
+    components:{
+      markdownEditer
+    },
     data(){
       return {
         mocus:'',

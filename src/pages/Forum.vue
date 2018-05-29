@@ -59,12 +59,16 @@
             <div class="row">
               <div class="col-md-10">
                 <div class="panel-default panel" v-for="item in $store.state.Forum.TipList">
-                  <div class="panel-body">
+                  <div class="panel-body" v-show="!$store.state.Forum.TipState">
                     <div class="title">
-                      <h4>{{item.title}}</h4>
+                      <h4><a href="javascript:;" @click="$store.commit('EnterTip')">{{item.title}}</a></h4>
                       <span>{{item.user}}</span>
                       <p>{{item.content}}</p>
                     </div>
+                  </div>
+                  <div class="panel-body" v-show="$store.state.Forum.TipState">
+                    <div>话题内部内容</div>
+                    <button class="btn btn-danger" @click="$store.commit('ReturnTip')">返回</button>
                   </div>
                 </div>
               </div>
